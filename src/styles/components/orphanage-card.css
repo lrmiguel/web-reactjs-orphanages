@@ -1,0 +1,51 @@
+.orphanage-card {
+  width: 544px;
+  height: 309px;
+  background: #FFF;
+  margin: 40px 16px;
+  border-radius: 20px;
+}
+
+.orphanage-card .map-preview {
+  display: flex;
+  height: 227px;
+}
+
+.orphanage-card .rodape {
+  display: flex;
+}
+
+.orphanage-card .rodape .rodape-content {
+  margin: 17px 32px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 0;
+}
+
+.orphanage-card .rodape .rodape-content h2 {
+  font-size: 24px;
+  font-weight: 700;
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.orphanage-card .rodape .rodape-content .approval-options {
+  display: flex;
+}
+
+.approval-options .options-button {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 16px;
+  color: #15C3D6;
+  margin: 0 4px;
+}

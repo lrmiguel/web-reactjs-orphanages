@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    min-height: 100vh;
+}
+
+body {
+    color: #FFF;
+    background: #ebf2f5;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+body, input, button, textarea {
+    font: 600 18px Nunito, sans-serif;
+}
+
+a {
+    color: inherit;
+}

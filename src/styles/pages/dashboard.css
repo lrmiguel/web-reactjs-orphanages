@@ -1,0 +1,34 @@
+#page-dashboard {
+  min-height: 100vh;
+  display: flex;
+  background: #EBF2F5;
+}
+
+#page-dashboard .active-screen {
+  flex: 1;
+  color: #4D6F80;
+  margin: 64px 44px;
+}
+
+#page-dashboard .active-screen .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+#page-dashboard .active-screen .header p {
+  font-weight: 600;
+}
+
+hr {
+  border: 1px solid #D3E2E5;
+}
+
+#page-dashboard .active-screen .cards-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  transition: background-color 0.2s;
+  flex-flow: row wrap;
+}
